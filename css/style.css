@@ -1,0 +1,73 @@
+@font-face {
+  font-family: SEGOEUI;
+  src: url(fonts/SEGOEUI.ttf);
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+body, body *{
+  padding: 0;
+  margin:0;
+  border: none;
+}
+
+.nav{
+  position: absolute;
+  right:0;
+  top:0;
+  border-bottom-left-radius: 10px;
+  background-color: transparent;
+  width: 50vw;
+  height: 10vh;
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  z-index: 1;
+}
+
+.navment{
+  font-size: 20px;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  font-family: SEGOEUI !important;
+  font-weight: bold;
+}
+
+.upper{
+  font-size: 50px;
+  font-family: SEGOEUI;
+  color: #1CACCE;
+}
+
+.lower{
+  font-size: 25px;
+  font-family: SEGOEUI;
+}
+
+.maintext{
+  position: absolute;
+  left: 5vw;
+  top: 35vh;
+  font-family: SEGOEUI;
+  font-weight: bold;
+  color: #14DB92;
+  text-align: center;
+}
+
+.btn{
+  position: relative;
+  top: 5vh;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn a{
+  color: #208de7;
+  text-decoration: none;
+  padding: 5px;
+}

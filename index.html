@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSCC</title>
     <link rel="stylesheet" href="css\style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/aes.min.js" integrity="sha512-eqbQu9UN8zs1GXYopZmnTFFtJxpZ03FHaBMoU3dwoKirgGRss9diYqVpecUgtqW2YRFkIVgkycGQV852cD46+w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js" integrity="sha512-lnOrdDc1AhEWZwnKnDieQehiGI1Kh4yiP2DI+pRrEKZUPE4rvQVgqZBr8eZczqjUadGbU6To4rWsXiqVHwHG4w==" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -26,7 +28,28 @@
             <div class="lower">Making it happen</div>
             <span class="btn"><a href="https://www.instagram.com/nscc.official/">Instagram</a></span>
         </div>
+        <div class="instagram-wrapper" data-prref="58"></div>
     </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCk7OCu4VcijY0Sv8wBjy7cwVGI7ypZV6c",
+        authDomain: "nscc-website-database.firebaseapp.com",
+        databaseURL: "https://nscc-website-database-default-rtdb.firebaseio.com",
+        projectId: "nscc-website-database",
+        storageBucket: "nscc-website-database.appspot.com",
+        messagingSenderId: "825190345123",
+        appId: "1:825190345123:web:d4f96fb843834970ead216"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

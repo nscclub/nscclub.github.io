@@ -16,8 +16,3 @@ var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", reqListener);
 oReq.open("GET", "https://graph.instagram.com/me?fields=id,media_type,media_url&access_token=IGQVJVV184YlVuaWxrcVJ1Y29xZAlk4VWZAlNW1EYlY0eWNEcVlEaFE5ZAXJhSjhKSV9sX09SYmtWaXJobzdvV081aWk2ZAVg2Q0J3cjV2UW9BVkdRN1VIbG4xSWl3clVrV1M4RlIwZAU1B");
 oReq.send()
-<<<<<<< HEAD
-oReq.send()
-=======
->>>>>>> af98de256b86ee8813c203d79b7638029c5661d7
-

@@ -3,8 +3,11 @@ function reqListener () {
 }
 
 const database = firebase.database();
-const apikey = database.get('API key')
-const prev = database.get('Previous Refresh')
+const apikey = database.ref('API key')
+const prev = database.ref('Previous Refresh')
+apikey.on('value', (val)=>{
+	console.log(val)
+})
 const currentDate = new Date()
 
 console.log(apikey, prev)

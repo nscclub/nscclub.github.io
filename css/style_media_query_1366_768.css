@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1366px){
+	.upper{
+		font-size: 63px;
+	}
+	.lower{
+		font-size: 38px;
+	}
+	.navment{
+		font-size: 20px;
+	}
+	.nav{
+		grid-template-columns: 145px 145px 145px 145px;
+	}
+}

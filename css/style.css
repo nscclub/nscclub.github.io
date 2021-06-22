@@ -112,8 +112,9 @@
 	font-size: 25px;
 	font-family: Rubik;
 	animation: fadeIn ease 5s;
-	animation-delay: 10s;
+	/* animation-delay: 10s; */
 	-webkit-animation: fadeIn ease 5s;
+	/* -webkit-animation-delay: 10s; */
 	-moz-animation: fadeIn ease 5s;
 	-o-animation: fadeIn ease 5s;
 	-ms-animation: fadeIn ease 5s;
@@ -137,8 +138,9 @@
 	width: 40vw;
 	height: auto;
 	animation: fadeIn ease 5s;
-	animation-delay: 5s;
+	/* animation-delay: 1s; */
 	-webkit-animation: fadeIn ease 5s;
+	/* -webkit-animation-delay: 1s; */
 	-moz-animation: fadeIn ease 5s;
 	-o-animation: fadeIn ease 5s;
 	-ms-animation: fadeIn ease 5s;

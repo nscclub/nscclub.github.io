@@ -1,8 +1,3 @@
-css/.style.css.un~
-css/style.css~
-..gitignore.un~
-.gitignore~
-.index.html.un~
-index.html~
-assests/19198059.fig
-assests/19198059.svg
+*~
+*.un~
+~.un
